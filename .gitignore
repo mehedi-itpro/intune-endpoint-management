@@ -1,0 +1,17 @@
+# Script output: inventories contain serial numbers and user names
+output/
+*.csv
+!templates/*.csv
+
+# Packaged apps and installers
+*.intunewin
+*.msi
+*.exe
+
+# Tenant exports and secrets
+*.pfx
+*.pem
+*.key
+.env
+*export*.json
+.DS_Store
