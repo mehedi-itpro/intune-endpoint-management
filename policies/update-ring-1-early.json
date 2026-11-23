@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "displayName": "WIN-UPD-Ring1-Early-v1",
+  "description": "Early adopters (about 10 percent of the fleet). Quality updates deferred 3 days after release.",
+  "microsoftUpdateServiceAllowed": true,
+  "driversExcluded": false,
+  "qualityUpdatesDeferralPeriodInDays": 3,
+  "featureUpdatesDeferralPeriodInDays": 0,
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForQualityUpdatesInDays": 3,
+  "deadlineForFeatureUpdatesInDays": 7,
+  "deadlineGracePeriodInDays": 2,
+  "postponeRebootUntilAfterDeadline": false,
+  "userPauseAccess": "disabled",
+  "userWindowsUpdateScanAccess": "enabled"
+}

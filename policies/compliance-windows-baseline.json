@@ -1,0 +1,30 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "displayName": "WIN-CMP-All-Baseline-v1",
+  "description": "Baseline compliance for corporate Windows 11 devices: encryption, boot integrity, firewall, Defender, minimum OS. Non-compliant devices are marked immediately and blocked by Conditional Access after the grace period.",
+  "osMinimumVersion": "10.0.26100.0",
+  "bitLockerEnabled": true,
+  "secureBootEnabled": true,
+  "codeIntegrityEnabled": true,
+  "storageRequireEncryption": true,
+  "tpmRequired": true,
+  "activeFirewallRequired": true,
+  "defenderEnabled": true,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "antiSpywareRequired": true,
+  "signatureOutOfDate": true,
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 72,
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ]
+}

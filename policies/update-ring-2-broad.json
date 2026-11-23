@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "displayName": "WIN-UPD-Ring2-Broad-v1",
+  "description": "Broad ring (remaining devices). Quality updates deferred 7 days after release, installed outside active hours with a firm deadline.",
+  "microsoftUpdateServiceAllowed": true,
+  "driversExcluded": false,
+  "qualityUpdatesDeferralPeriodInDays": 7,
+  "featureUpdatesDeferralPeriodInDays": 0,
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForQualityUpdatesInDays": 5,
+  "deadlineForFeatureUpdatesInDays": 10,
+  "deadlineGracePeriodInDays": 2,
+  "postponeRebootUntilAfterDeadline": false,
+  "userPauseAccess": "disabled",
+  "userWindowsUpdateScanAccess": "enabled"
+}

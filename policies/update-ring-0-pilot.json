@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "displayName": "WIN-UPD-Ring0-Pilot-v1",
+  "description": "Pilot ring (IT devices). Quality updates immediately, feature updates controlled by a separate feature update policy.",
+  "microsoftUpdateServiceAllowed": true,
+  "driversExcluded": false,
+  "qualityUpdatesDeferralPeriodInDays": 0,
+  "featureUpdatesDeferralPeriodInDays": 0,
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deadlineForQualityUpdatesInDays": 2,
+  "deadlineForFeatureUpdatesInDays": 5,
+  "deadlineGracePeriodInDays": 1,
+  "postponeRebootUntilAfterDeadline": false,
+  "userPauseAccess": "disabled",
+  "userWindowsUpdateScanAccess": "enabled"
+}
